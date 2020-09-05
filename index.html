@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- css flickity -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+
+    <link rel="stylesheet" href="./css/estilos.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <!-- <div class="header__logo">
+        <img src="./img/logo.svg" alt="" />
+      </div>
+      <div class="header__buscador">
+        <img src="./img/search.svg" alt="" />
+        <input
+          type="text"
+          class="header__input"
+          placeholder="Busca un término"
+        />
+      </div>
+      <div class="header__usuario">
+        <img src="https://randomuser.me/api/portraits/men/90.jpg" alt="" />
+        <span>Jonthonel Requena</span>
+      </div> -->
+    </header>
+    <nav class="nav-extended">
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo">Logo</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+          ><i class="material-icons">menu</i></a
+        >
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="sass.html">Registrarte</a></li>
+          <li><a href="badges.html">Iniciar Sesion</a></li>
+        </ul>
+      </div>
+      <div class="nav-content">
+        <ul class="tabs tabs-transparent">
+          <li class="tab">
+            <a href="#test1"
+              ><div>
+                <img width="30" height="30" src="./img/drogas.svg" alt="" />
+              </div>
+              <p>Medicamentos</p></a
+            >
+          </li>
+          <li class="tab"><a class="active" href="#test2">Test 2</a></li>
+          <li class="tab disabled"><a href="#test3">Disabled Tab</a></li>
+          <li class="tab"><a href="#test4">Test 4</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="sass.html">Sass</a></li>
+      <li><a href="badges.html">Components</a></li>
+    </ul>
+
+    <div class="contairer">
+      <div class="row">
+        <div class="col s12">
+          <div class="slider">
+            <ul class="slides parallax-container">
+              <li class="">
+                <img
+                  class="parallax"
+                  src="./img/Atencióndomingodesktop(1).jpg"
+                />
+                <!-- random image -->
+              </li>
+              <li>
+                <img src="./img/banner2.jpg" />
+                <!-- random image -->
+              </li>
+              <li>
+                <img src="./img/banner3.jpg" />
+                <!-- random image -->
+              </li>
+              <li>
+                <img src="./img/banner4.jpg" />
+                <!-- random image -->
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contairer">
+      <div class="row">
+        <div class="col s12">
+          <h2 class="center">Nuestros Productos</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          <div class="carousel">
+            <div class="card__inicio">
+              <div class="card__imagen">
+                <img src="./img/03637-tena-slip-m-promo.jpg" alt="" />
+                <p class="card__photos">Fotos</p>
+                <p class="card__fecha">
+                  4 <br />
+                  <span> JUL </span>
+                </p>
+              </div>
+              <div class="card__info">
+                <i class="textoh2">Pañales &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;</i>
+                <i class="card__subtitulo">S/ 76.20</i>
+                <p class="card__descripcion">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed enim
+                  nisi, consequuntur voluptates laborum fuga veniam labore facilis
+                  blanditiis. Hic suscipit
+                </p>
+                <p class="card__feed">
+                  <small>
+                    <i class="fas fa-clock"></i> 6 min atrás &nbsp; &nbsp; &nbsp;
+                    <i class="fas fa-comment"></i> 39 comentarios</small
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="card__inicio">
+              <div class="card__imagen">
+                <img src="./img/03637-tena-slip-m-promo.jpg" alt="" />
+                <p class="card__photos">Fotos</p>
+                <p class="card__fecha">
+                  4 <br />
+                  <span> JUL </span>
+                </p>
+              </div>
+              <div class="card__info">
+                <h2 class="textoh2">Pañales</h2>
+                <h3 class="card__subtitulo">S/ 76.20</h3>
+                <p class="card__descripcion">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed enim
+                  nisi, consequuntur voluptates laborum fuga veniam labore facilis
+                  blanditiis. Hic suscipit
+                </p>
+                <p class="card__feed">
+                  <small>
+                    <i class="fas fa-clock"></i> 6 min atrás &nbsp; &nbsp; &nbsp;
+                    <i class="fas fa-comment"></i> 39 comentarios</small
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="card__inicio">
+              <div class="card__imagen">
+                <img src="./img/03637-tena-slip-m-promo.jpg" alt="" />
+                <p class="card__photos">Fotos</p>
+                <p class="card__fecha">
+                  4 <br />
+                  <span> JUL </span>
+                </p>
+              </div>
+              <div class="card__info">
+                <h2 class="textoh2">Pañales</h2>
+                <h3 class="card__subtitulo">S/ 76.20</h3>
+                <p class="card__descripcion">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed enim
+                  nisi, consequuntur voluptates laborum fuga veniam labore facilis
+                  blanditiis. Hic suscipit
+                </p>
+                <p class="card__feed">
+                  <small>
+                    <i class="fas fa-clock"></i> 6 min atrás &nbsp; &nbsp; &nbsp;
+                    <i class="fas fa-comment"></i> 39 comentarios</small
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="card__inicio">
+              <div class="card__imagen">
+                <img src="./img/03637-tena-slip-m-promo.jpg" alt="" />
+                <p class="card__photos">Fotos</p>
+                <p class="card__fecha">
+                  4 <br />
+                  <span> JUL </span>
+                </p>
+              </div>
+              <div class="card__info">
+                <h2 class="textoh2">Pañales</h2>
+                <h3 class="card__subtitulo">S/ 76.20</h3>
+                <p class="card__descripcion">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed enim
+                  nisi, consequuntur voluptates laborum fuga veniam labore facilis
+                  blanditiis. Hic suscipit
+                </p>
+                <p class="card__feed">
+                  <small>
+                    <i class="fas fa-clock"></i> 6 min atrás &nbsp; &nbsp; &nbsp;
+                    <i class="fas fa-comment"></i> 39 comentarios</small
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="card__inicio">
+              <div class="card__imagen">
+                <img src="./img/03637-tena-slip-m-promo.jpg" alt="" />
+                <p class="card__photos">Fotos</p>
+                <p class="card__fecha">
+                  4 <br />
+                  <span> JUL </span>
+                </p>
+              </div>
+              <div class="card__info">
+                <h2 class="textoh2">Pañales</h2>
+                <h3 class="card__subtitulo">S/ 76.20</h3>
+                <p class="card__descripcion">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed enim
+                  nisi, consequuntur voluptates laborum fuga veniam labore facilis
+                  blanditiis. Hic suscipit
+                </p>
+                <p class="card__feed">
+                  <small>
+                    <i class="fas fa-clock"></i> 6 min atrás &nbsp; &nbsp; &nbsp;
+                    <i class="fas fa-comment"></i> 39 comentarios</small
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="card__inicio">
+              <div class="card__imagen">
+                <img src="./img/03637-tena-slip-m-promo.jpg" alt="" />
+                <p class="card__photos">Fotos</p>
+                <p class="card__fecha">
+                  4 <br />
+                  <span> JUL </span>
+                </p>
+              </div>
+              <div class="card__info">
+                <h2 class="textoh2">Pañales</h2>
+                <h3 class="card__subtitulo">S/ 76.20</h3>
+                <p class="card__descripcion">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed enim
+                  nisi, consequuntur voluptates laborum fuga veniam labore facilis
+                  blanditiis. Hic suscipit
+                </p>
+                <p class="card__feed">
+                  <small>
+                    <i class="fas fa-clock"></i> 6 min atrás &nbsp; &nbsp; &nbsp;
+                    <i class="fas fa-comment"></i> 39 comentarios</small
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        
+      </div>
+      </div>
+    </div>
+
+    <div class="contairer">
+      <div class="row">
+        <div class="col s12">
+          <h2 class="center">MEDICAMENTOS</h2>
+        </div>
+      </div>
+    </div>
+
+    <!-- js flickity -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- script locales -->
+    <script src="./js/materialize.js"></script>
+  </body>
+</html>
